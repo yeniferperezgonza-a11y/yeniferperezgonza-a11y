@@ -1,0 +1,72 @@
+
+
+body {
+background-color: #f5f1e8;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 20px;
+}
+
+section {
+max-width: 900px;
+margin: auto;
+background-color: white;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+}
+
+h2 {
+text-align: center;
+color: #2f5d50;
+margin-bottom: 20px;
+font-weight: bold;
+}
+
+p {
+text-align: center;
+color: #555;
+}
+
+.form-control,
+.form-select {
+border-radius: 10px;
+}
+
+label {
+font-weight: 600;
+color: #3d3d3d;
+}
+
+.btn-primary {
+background-color: #2f5d50;
+border: none;
+padding: 10px 25px;
+font-weight: bold;
+border-radius: 10px;
+}
+
+.btn-primary:hover {
+background-color: #23463c;
+}
+
+.mb-3,
+.col-md,
+.col-md-3,
+.col-md-4,
+.col-md-6 {
+margin-bottom: 15px;
+}
+
+.form-check {
+margin-top: 15px;
+}
+
+input[type="file"] {
+background-color: #fafafa;
+}
+
+#passwordHelpBlock {
+color: #6c757d;
+font-size: 0.9rem;
+}

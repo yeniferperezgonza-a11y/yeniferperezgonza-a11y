@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Tareas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <h1>Panel de Seguimiento de Tareas</h1>
+        <p>Como estudiantes nos cueta organizar nuestras tareas, <br> 
+        Por eso este Panel de tareas nos sirve para organzaslas:</p>
+
+        <form id="formulario">
+
+            <input type="text" id="tarea" placeholder="Nombre de la tarea">
+
+            <input type="text" id="responsable" placeholder="Responsable">
+
+            <select id="prioridad">
+                <option value="">Seleccione prioridad</option>
+                <option value="Alta">Alta</option>
+                <option value="Media">Media</option>
+                <option value="Baja">Baja</option>
+            </select>
+
+            <select id="estado">
+                <option value="Pendiente">Pendiente</option>
+                <option value="En proceso">En proceso</option>
+                <option value="Finalizada">Finalizada</option>
+            </select>
+
+            <input type="date" id="fecha">
+
+            <button type="submit">Agregar tarea</button>
+
+        </form>
+
+        <div id="mensaje"></div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Tarea</th>
+                    <th>Responsable</th>
+                    <th>Prioridad</th>
+                    <th>Estado</th>
+                    <th>fecha</th>
+                </tr>
+            </thead>
+
+            <tbody id="listaTareas">
+
+            </tbody>
+        </table>
+
+        <button id="limpiar">Limpiar tabla</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

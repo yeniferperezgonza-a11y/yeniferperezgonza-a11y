@@ -1,0 +1,174 @@
+body{
+font-family: Arial, sans-serif;
+background: linear-gradient(to right, #dfe9f3, #ffffff);
+margin: 0;
+padding: 0;
+color: #333;
+}
+
+
+header{
+background-color: #1f3c88;
+color: white;
+text-align: center;
+padding: 40px 20px;
+box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+header h1{
+margin: 0;
+font-size: 40px;
+}
+
+header p{
+font-size: 18px;
+}
+
+
+main{
+width: 85%;
+max-width: 900px;
+margin: auto;
+padding: 20px;
+}
+
+
+section{
+background-color: white;
+padding: 25px;
+margin-top: 25px;
+border-radius: 15px;
+box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+.empresa{
+border-left: 6px solid #1f3c88;
+}
+
+.empresa p{
+line-height: 1.6;
+}
+
+.datos-empresa{
+display: grid;
+gap: 12px;
+margin-top: 18px;
+}
+
+.datos-empresa li{
+margin-bottom: 0;
+}
+
+
+h2{
+color: #1f3c88;
+margin-bottom: 15px;
+}
+
+
+input,
+select,
+textarea{
+width: 100%;
+padding: 12px;
+margin-top: 5px;
+border-radius: 8px;
+border: 1px solid #ccc;
+font-size: 15px;
+box-sizing: border-box;
+transition: 0.3s;
+}
+
+select{
+height: 46px;
+background-color: white;
+color: #333;
+cursor: pointer;
+appearance: auto;
+-webkit-appearance: menulist;
+position: relative;
+z-index: 2;
+}
+
+select option{
+background-color: white;
+color: #333;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus{
+border-color: #1f3c88;
+outline: none;
+box-shadow: 0px 0px 8px rgba(31,60,136,0.4);
+}
+
+.campo-error{
+border-color: #d93025 !important;
+background-color: #fff6f6;
+}
+
+.mensaje-error,
+.mensaje-exito{
+margin-top: 15px;
+font-weight: bold;
+}
+
+.mensaje-error{
+color: #d93025;
+}
+
+.mensaje-exito{
+color: #16803c;
+}
+
+textarea{
+resize: vertical;
+min-height: 100px;
+}
+
+
+button{
+background-color: #1f3c88;
+color: white;
+padding: 14px 20px;
+border: none;
+border-radius: 10px;
+font-size: 16px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+button:hover{
+background-color: #162d66;
+transform: scale(1.03);
+}
+
+ul{
+list-style: none;
+padding: 0;
+}
+
+li{
+background-color: #f4f7fb;
+padding: 15px;
+border-radius: 10px;
+margin-bottom: 15px;
+}
+
+blockquote{
+background-color: #eef3ff;
+border-left: 5px solid #1f3c88;
+padding: 15px;
+border-radius: 10px;
+font-style: italic;
+}
+
+footer{
+background-color: #1f3c88;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 30px;
+}

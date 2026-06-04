@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Selección de Elementos</title>
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <header class="header">
+
+            <h1 id="titulo">
+                CENTRO DE CONTROL DOM
+            </h1>
+
+            <p class="subtitulo">
+                Demostración interactiva de selección de elementos
+            </p>
+
+        </header>
+
+        <section class="panel">
+
+            <div class="tarjeta">
+
+                <img
+                id="imagen"
+                src="default-avatar-icon-of-social-media-user-vector.jpg"
+                alt="imagen">
+
+                <h2 id="nombre">
+                    Usuario Invitado
+                </h2>
+
+                <p class="estado">
+                    Estado: Desconectado
+                </p>
+
+                <div class="nivel-box">
+
+                    <h3 id="nivel">
+                        Nivel: 1
+                    </h3>
+
+                    <div class="barra">
+
+                        <div id="progreso"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="botones">
+
+            <button id="btnCambiar">
+                Cambiar Usuario
+            </button>
+
+            <button id="btnColor">
+                Cambiar Tema
+            </button>
+
+            <button id="btnReset">
+                Reiniciar
+            </button>
+
+        </section>
+
+        <section class="historial">
+
+            <h3>
+                Historial de acciones
+            </h3>
+
+            <ul id="lista">
+
+            </ul>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

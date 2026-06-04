@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Solicitar Empleo</title>
+    <link rel="icon" href="TECNOLOGIA.jpg" type="image/png">
+    <link rel="stylesheet" href="style.CSS">
+</head>
+<body>
+
+    <header>
+        <h1>SoftwareHouse</h1>
+        <p>Solicitud de empleo para una empresa de dropshipping y soluciones digitales</p>
+    </header>
+
+    <main>
+        <section class="empresa">
+            <h2>Sobre SoftwareHouse</h2>
+            <p>
+                SoftwareHouse es una empresa de dropshipping enfocada en comercio electrónico,
+                tecnología y soluciones digitales. Conectamos productos con clientes por medio
+                de tiendas online, marketing digital, atención al cliente y herramientas tecnológicas.
+            </p>
+
+            <p>
+                Nuestro equipo trabaja en áreas como administración de e-commerce, soporte técnico,
+                análisis de datos, diseño digital, automatización y mejora de procesos para vender
+                de forma más rápida, segura y organizada.
+            </p>
+
+            <ul class="datos-empresa">
+                <li><strong>Área principal:</strong> Dropshipping y comercio electrónico</li>
+                <li><strong>Enfoque:</strong> Tecnología, ventas online y atención digital</li>
+                <li><strong>Buscamos:</strong> Personas responsables, creativas y con ganas de aprender</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Completa el formulario</h2>
+            <p>Buscamos personas creativas, responsables y con ganas de aprender. Todos los campos marcados con * son obligatorios.</p>
+
+            <form action="#" method="POST">
+                
+                <div>
+                    <label for="nombre">Nombre completo *</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre completo" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="correo">Correo electrónico *</label><br>
+                    <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="telefono">Número de teléfono *</label><br>
+                    <input type="tel" id="telefono" name="telefono" placeholder="(55) 1234 5678" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="direccion">Ciudad / Dirección *</label><br>
+                    <input type="text" id="direccion" name="direccion" placeholder="Escribe tu ciudad o dirección" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="puesto">Puesto al que aplicas *</label><br>
+                    <select id="puesto" name="puesto" required>
+                        <option value="">Selecciona el puesto</option>
+                        <option value="desarrollador_web">Desarrollador web junior</option>
+                        <option value="soporte_tecnico">Técnico de soporte informático</option>
+                        <option value="analista_datos">Analista de datos</option>
+                        <option value="disenador_ui">Diseñador UI/UX</option>
+                        <option value="qa_tester">Tester QA</option>
+                        <option value="marketing_digital">Especialista en marketing digital</option>
+                        <option value="ecommerce">Administrador de e-commerce</option>
+                        <option value="ciberseguridad">Asistente de ciberseguridad</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="estudios">Nivel de estudios *</label><br>
+                    <select id="estudios" name="estudios" required>
+                        <option value="">Selecciona tu nivel de estudios</option>
+                        <option value="secundaria">Secundaria</option>
+                        <option value="bachillerato_tecnico">Bachillerato técnico</option>
+                        <option value="tecnico">Técnico en informática o áreas relacionadas</option>
+                        <option value="universidad">Universidad / Profesional</option>
+                        <option value="certificaciones">Cursos o certificaciones tecnológicas</option>
+                        <option value="posgrado">Posgrado / Maestría</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="experiencia">Experiencia laboral *</label><br>
+                    <textarea id="experiencia" name="experiencia" placeholder="Describe tu experiencia en tecnología, soporte, proyectos digitales o herramientas que hayas usado" required></textarea>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="habilidades">Habilidades *</label><br>
+                    <textarea id="habilidades" name="habilidades" placeholder="Ej. HTML, CSS, JavaScript, Excel, redes, soporte técnico, diseño, comunicación o trabajo en equipo" required></textarea>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="disponibilidad">Disponibilidad *</label><br>
+                    <select id="disponibilidad" name="disponibilidad" required>
+                        <option value="">Selecciona tu disponibilidad</option>
+                        <option value="inmediata">Inmediata</option>
+                        <option value="medio_tiempo">Medio tiempo</option>
+                        <option value="tiempo_completo">Tiempo completo</option>
+                        <option value="remoto">Remoto</option>
+                        <option value="hibrido">Híbrido</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="cv">Subir currículum (CV) *</label><br>
+                    <input type="file" id="cv" name="cv" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="mensaje">Mensaje adicional</label><br>
+                    <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos qué área tecnológica te interesa y por qué quieres formar parte de nuestro equipo"></textarea>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="fecha">Fecha de solicitud</label><br>
+                    <input type="text" id="fecha" name="fecha" value="24 de mayo de 2024" readonly>
+                </div>
+
+                <br>
+
+                <button type="submit">ENVIAR SOLICITUD</button>
+
+            </form>
+        </section>
+
+        <section>
+            <h2>¿Por qué trabajar en nuestra empresa tecnológica?</h2>
+            
+            <ul>
+                <li>
+                    <h3>Crecimiento profesional</h3>
+                    <p>Impulsamos tu aprendizaje con proyectos reales, mentorías y nuevas herramientas digitales.</p>
+                </li>
+                <li>
+                    <h3>Innovación constante</h3>
+                    <p>Trabajamos con soluciones web, comercio electrónico, automatización y análisis de datos.</p>
+                </li>
+                <li>
+                    <h3>Trabajo colaborativo</h3>
+                    <p>Fomentamos la comunicación, el respeto y el trabajo en equipo entre áreas técnicas y creativas.</p>
+                </li>
+                <li>
+                    <h3>Proyectos desafiantes</h3>
+                    <p>Participa en sitios web, plataformas digitales, soporte tecnológico y mejoras para clientes.</p>
+                </li>
+            </ul>
+
+            <blockquote>
+                <p>"Tu talento puede convertirse en la próxima solución digital que impulse nuestro crecimiento."</p>
+            </blockquote>
+        </section>
+    </main>
+
+    <footer>
+        <p>Tu futuro tecnológico empieza en SoftwareHouse</p>
+        <p>© 2026 SoftwareHouse. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>
